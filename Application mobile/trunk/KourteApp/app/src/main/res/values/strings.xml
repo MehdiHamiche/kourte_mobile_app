@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Kourte</string>
+
+    <!--Menu principal-->
+    <string name="start">Démarrer un tracé</string>
+    <string name="history">Historique</string>
+    <string name="start_alert">Le tracé va commencer</string>
+    <string name="start_alert_yes">OK</string>
+    <string name="start_alert_no">Retour</string>
+
+    <!--Page du tracé en temps réel-->
+    <string name="stop">Stop</string>
+    <string name="download">Télécharger</string>
+    <string name="save">Enregistrer</string>
+    <string name="alert_save">Etes vous sur de revenir à l\'accueil sans enregistrer?</string>
+    <string name="alert_save_yes">Oui</string>
+    <string name="alert_save_no">Non</string>
+
+    <!--Page de formulaire-->
+    <string name="title_form">Formulaire</string>
+    <string name="add_date">Date</string>
+    <string-array name="add_mode_of_transport">
+        <item>Voiture</item>
+        <item>Moto</item>
+        <item>Bus</item>
+        <item>Train</item>
+        <item>Métro</item>
+        <item>TGV</item>
+        Mode de transport
+    </string-array>
+    <string name="add_name">Nom du tracé</string>
+
+    <!--Page de l'historique-->
+    <string name="duration_route">Durée du trajet</string>
+    <string name="date_route">Date du tracé</string>
+
+    <!--Page d'un tracé dans l'historique-->
+    <string name="name">@string/add_name</string>
+    <string name="duration">@string/duration_route</string>
+    <string name="mode_of_transport">Mode de transport</string>
+    <string name="title_activity_afficher_trajet_historique">AfficherTrajetHistoriqueActivity
+    </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
